@@ -1,0 +1,42 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: loans
+
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: akash
+    password: akash
+
+  h2:
+    console:
+      enabled: true
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  config:
+    import:
+      - application-qa.yml
+      - application-prod.yml
+
+  profiles:
+    active: qa   # ✅ fixed (string instead of broken list)
+
+build:
+  version: "3.0"
+
+loans:
+  message: "Welcome to Capgemini accounts related local APIs"
+  contactDetails:
+    name: "Akash Kumar Sinha"
+    email: "akash.sinha@capgemini.com"
+  onCallSupport:
+    - "+91 9036395199"
+    - "+91 9934443576"

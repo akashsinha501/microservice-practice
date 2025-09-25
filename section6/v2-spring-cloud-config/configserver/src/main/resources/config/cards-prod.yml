@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to Capgemini cards related PROD APIs"
+  contactDetails:
+    name: "Dinesh Kumar SA"
+    email: "dinesh.kumar.sa@sc.com"
+  onCallSupport:
+    - "+91 7042569459"
+    - "+91 8956783809"
