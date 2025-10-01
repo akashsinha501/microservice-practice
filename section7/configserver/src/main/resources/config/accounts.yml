@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to Capgemini accounts related local APIs"
+  contactDetails:
+    name: "Akash Kumar Sinha"
+    email: "akash.sinha@capgemini.com"
+  onCallSupport:
+    - "+91 9036395199"
+    - "+91 9934443576"
