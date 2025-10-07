@@ -1,0 +1,56 @@
+server:
+  port: 8072   # Gateway will run here
+
+spring:
+  application:
+    name: gatewayserver
+  config:
+    import: optional:configserver:http://localhost:8071/
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: false
+          lower-case-service-id: true
+      routes:
+        - id: accounts-service
+          uri: lb://accounts
+          predicates:
+            - Path=/accounts/**
+        - id: loans-service
+          uri: lb://loans
+          predicates:
+            - Path=/loans/**
+        - id: cards-service
+          uri: lb://cards
+          predicates:
+            - Path=/cards/**
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8070/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    gateway:
+      enabled: true
+  info:
+    env:
+      enabled: true   # enables info.* properties to show up
+
+info:
+  app:
+    name: "gatewayserver"
+    description: "Capgemini Bank Gateway Server Application"
+    version: "1.0.0"
+
+logging:
+  level:
+    com.capgemini.gatewayserver: DEBUG

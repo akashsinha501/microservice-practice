@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to Capgemini loans related QA APIs"
+  contactDetails:
+    name: "Solomon Thomas"
+    email: "solomon.thomas@capgemini.com"
+  onCallSupport:
+    - "+91 9012378998"
+    - "+91 9835679834"
