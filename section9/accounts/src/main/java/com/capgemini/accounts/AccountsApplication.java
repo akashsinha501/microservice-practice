@@ -23,7 +23,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 				version = "v1",
 				contact = @Contact(
 						name = "Akash Sinha",
-						email = "akash.sinha@capgemini.com",
+						email = "akash.sinha@gmail.com",
 						url = "https://www.capgemini.com/"
 				),
 				license = @License(
