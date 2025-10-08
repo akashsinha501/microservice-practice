@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/section7/accounts/accounts.iml" filepath="$PROJECT_DIR$/section7/accounts/accounts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section4/accounts/accounts (1).iml" filepath="$PROJECT_DIR$/section4/accounts/accounts (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/section6/v1-springboot/accounts/accounts (2).iml" filepath="$PROJECT_DIR$/section6/v1-springboot/accounts/accounts (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/section6/v2-spring-cloud-config/accounts/accounts (3).iml" filepath="$PROJECT_DIR$/section6/v2-spring-cloud-config/accounts/accounts (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/section9/accounts/accounts (6).iml" filepath="$PROJECT_DIR$/section9/accounts/accounts (6).iml" />
+      <module fileurl="file://$PROJECT_DIR$/section4/cards/cards (1).iml" filepath="$PROJECT_DIR$/section4/cards/cards (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/section6/v1-springboot/cards/cards (2).iml" filepath="$PROJECT_DIR$/section6/v1-springboot/cards/cards (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/section6/v2-spring-cloud-config/cards/cards (3).iml" filepath="$PROJECT_DIR$/section6/v2-spring-cloud-config/cards/cards (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/section2/cards/cards (4).iml" filepath="$PROJECT_DIR$/section2/cards/cards (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/section7/cards/cards (5).iml" filepath="$PROJECT_DIR$/section7/cards/cards (5).iml" />
+      <module fileurl="file://$PROJECT_DIR$/section9/cards/cards (6).iml" filepath="$PROJECT_DIR$/section9/cards/cards (6).iml" />
+      <module fileurl="file://$PROJECT_DIR$/section6/v2-spring-cloud-config/configserver/configserver.iml" filepath="$PROJECT_DIR$/section6/v2-spring-cloud-config/configserver/configserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section7/configserver/configserver (1).iml" filepath="$PROJECT_DIR$/section7/configserver/configserver (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/section9/configserver/configserver (3).iml" filepath="$PROJECT_DIR$/section9/configserver/configserver (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/section9/eurekaserver/eurekaserver (1).iml" filepath="$PROJECT_DIR$/section9/eurekaserver/eurekaserver (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/section9/gatewayserver/gatewayserver.iml" filepath="$PROJECT_DIR$/section9/gatewayserver/gatewayserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section2/loans/loans.iml" filepath="$PROJECT_DIR$/section2/loans/loans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section4/loans/loans (1).iml" filepath="$PROJECT_DIR$/section4/loans/loans (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/section6/v1-springboot/loans/loans (2).iml" filepath="$PROJECT_DIR$/section6/v1-springboot/loans/loans (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/section6/v2-spring-cloud-config/loans/loans (3).iml" filepath="$PROJECT_DIR$/section6/v2-spring-cloud-config/loans/loans (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/section7/loans/loans (4).iml" filepath="$PROJECT_DIR$/section7/loans/loans (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/section9/loans/loans (6).iml" filepath="$PROJECT_DIR$/section9/loans/loans (6).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservice-practice.iml" filepath="$PROJECT_DIR$/.idea/microservice-practice.iml" />
+    </modules>
+  </component>
+</project>
